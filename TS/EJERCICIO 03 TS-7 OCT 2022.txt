@@ -1,0 +1,9 @@
+//Verificador de contraseña
+Console.WriteLine("Ingrese una contraseña");
+string contraseña = Console.ReadLine();
+string contraseñaDos = "";
+do
+{
+    Console.WriteLine("Ingrese su contraseña");
+    contraseñaDos = Console.ReadLine();
+} while (!(contraseña.Equals(contraseñaDos)));
